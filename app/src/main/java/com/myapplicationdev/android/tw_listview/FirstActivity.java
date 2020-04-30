@@ -25,8 +25,8 @@ public class FirstActivity extends AppCompatActivity {
         al.add("Year 2");
         al.add("Year 3");
 
-
-
+        aa = new ModuleAdapter(this,R.layout.activity_main,);
+        lv.setAdapter(aa);
 
 
 
